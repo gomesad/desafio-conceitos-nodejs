@@ -92,6 +92,9 @@ describe("Repositories", () => {
       });
 
     expect(response.body).toMatchObject({
+      url: "https://github.com/Rocketseat/umbriel",
+      title: "Umbriel",
+      techs: ["React", "ReactNative", "TypeScript", "ContextApi"],
       likes: 0
     });
   });
